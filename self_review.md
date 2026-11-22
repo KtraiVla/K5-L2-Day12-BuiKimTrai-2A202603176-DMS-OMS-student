@@ -2,10 +2,6 @@
 
 ## 1. Tự rà soát 4 cảnh
 
-Nghỉ tay 1 phút, mở lại bài của mình, chọn 4 ảnh (2 S##, 2 D##), đọc như người lạ.
-
-Loại lỗi: `seat_flip`, `wrong_class`, `guess`, `box`, `missing`, `extra`, `lr_flip` (trái/phải mặt), `flag` (thiếu cờ điểm), `ok`.
-
 | Ảnh | Đối tượng | Loại lỗi | Ghi chú | Đã sửa? |
 |---|---|---|---|---|
 | D02.png | `person` | `ok` | Dây an toàn nhìn rõ dải vắt chéo, gán worn_correct | Có |
@@ -21,5 +17,4 @@ Loại lỗi: `seat_flip`, `wrong_class`, `guess`, `box`, `missing`, `extra`, `l
 
 ## 3. Ghi chú về disagreement_log
 
-Một dòng bạn của mình đúng và mình sai. Mình học được gì từ dòng đó:
 * Ở ảnh `S04_ir.png`, đối với nhãn nôi em bé `infant_seat`, bạn mình chọn `facing = rear` trong khi mình chọn `front`. Sau khi thảo luận và tra cứu tiêu chuẩn an toàn xe hơi, nôi trẻ sơ sinh luôn bắt buộc lắp quay mặt về phía sau xe (`rear-facing`) để bảo vệ vùng đầu và cổ của bé khi phanh gấp. Đồng thời ở ảnh `S03_ir.png` và `S03_rgb.png`, mình cũng tiếp thu góp ý của bạn và chỉnh lại nhãn `object.type` từ `other` sang `cup` cho đồ vật có hình dáng cốc nước, sau đó xuất ra bản cập nhật `export_final_v2.zip`. Mình học được rằng khi gán nhãn dữ liệu cabin xe hơi, hiểu biết về an toàn xe thực tế giúp đưa ra quyết định nhãn chuẩn xác hơn nhiều so với việc chỉ nhìn cảm tính.

@@ -3,8 +3,8 @@ D01.png,face,gaze_zone,khác giá trị (IoU=0.76),cluster,center,mine,4.5,giữ
 D02.png,person,seatbelt,khác giá trị (IoU=0.97),unknown,worn_correct,peer,4.7,sửa thành worn_correct vì dải chéo thấy rõ vắt qua ngực
 D03.png,person,seatbelt,khác giá trị (IoU=0.88),worn_correct,unknown,mine,4.7,giữ worn_correct vì dải dây chéo từ vai xuống hông thấy rõ
 D04.png,person,seatbelt,khác giá trị (IoU=0.95),worn_correct,unknown,mine,4.7,giữ worn_correct vì dải chéo dây an toàn thấy rõ
-D04.png,hand,side,khác giá trị (IoU=0.72),right,left,mine,4.4-3,giữ nguyên vì gán đúng theo bên tay của cơ thể người lái
-D04.png,hand,side,khác giá trị (IoU=0.67),left,right,mine,4.4-3,giữ nguyên vì gán đúng theo bên tay của cơ thể người lái
+D04.png,hand,side,khác giá trị (IoU=0.72),right,left,mine,4.4-3,giữ right vì là tay phải của người lái theo quy tắc 4.4-3
+D04.png,hand,side,khác giá trị (IoU=0.67),left,right,mine,4.4-3,giữ left vì là tay trái của người lái theo quy tắc 4.4-3
 D04.png,face,eye_right,khác giá trị (IoU=0.64),unknown,closed,mine,4.5,giữ unknown vì mắt phải bị đốm phản xạ LED che khuất không thấy mí
 D04.png,face,gaze_zone,khác giá trị (IoU=0.64),lap,other,mine,4.5,giữ lap vì đầu và mắt tài xế cúi nhìn xuống vùng đùi
 D04.png,face13,right_eye_inner.outside,khác cờ,1,0,mine,4.6,giữ cờ outside vì điểm mốc rơi ra ngoài vùng nhận diện
@@ -21,7 +21,7 @@ S01_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,both_wrong,4.8,kh
 S01_rgb.png,child_seat,occupied,khác giá trị (IoU=0.93),yes,unknown,ambiguous,4.8,giữ yes theo hướng dẫn cập nhật của giảng viên trên lớp
 S01_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,giữ box child_seat bao quanh toàn bộ khung ghế
 S01_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,both_wrong,4.8,không vẽ person đè lên ghế trẻ em khi không có người thật
-S01_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,both_wrong,4.8,không vẽ person đè lên ghế trẻ em khi không có người thật
+S01_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,đồng ý với bạn vẽ thêm box object cho túi đồ đặt trong ghế trẻ em
 S02_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,giữ box child_seat đúng vị trí ghế sau xe
 S02_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,đồng ý với bạn gán object cho túi đồ trên ghế
 S02_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,giữ box child_seat đúng vị trí ghế sau xe

@@ -2,5 +2,5 @@ frame_id,source,phenomenon,affected_field,effect_on_label
 S01_ir,IR_sim,Ảnh mô phỏng IR không có nguồn sáng phản xạ thực tế và mất tương phản màu sắc với đệm ghế tối,seatbelt / box,giữ unknown cho seatbelt; khó phân biệt viền ranh giới giữa người và lưng ghế nếu không có ảnh RGB đối chiếu
 S02_ir,IR_sim,Mô phỏng IR làm mờ chi tiết bề mặt và chất liệu của đồ vật trên ghế,object.type,khó nhận biết vật là túi da hay hộp giấy nên cần đối chiếu ảnh S02_rgb để chọn type chính xác
 D02,real_IR,Đèn chiếu NIR 940nm cho độ tương phản nổi bật giữa dải dây an toàn tối màu và áo sáng màu của tài xế,person.seatbelt,thấy rõ dải chéo từ vai xuống hông đối diện nên tự tin gán worn_correct
-D03,real_IR,Đèn LED cận hồng ngoại phản xạ tạo đốm tròn chói sáng (specular reflection / glare) trên tròng kính mắt phải,face.eye_right,che khuất hoàn toàn con ngươi và mí mắt; tuân thủ quy tắc 4.4-1 ghi unknown chứ không đoán closed
-D04,real_IR,Tài xế cúi đầu khiến góc chiếu đèn NIR tạo vùng khuất bóng tối sâu ở hốc mắt trái,face.eye_left / face13,ghi eye_left=unknown; các điểm mốc mí mắt left_eye_* phải bật cờ occluded=1 vì bị bóng tối che khuất
+D03,real_IR,Đèn LED hồng ngoại tạo đốm lóa sáng tròn trên tròng kính mắt phải của tài xế,face.eye_right,che khuất hoàn toàn con ngươi và mí mắt; tuân thủ quy tắc 4.4-1 ghi unknown chứ không đoán closed
+D04,real_IR,Tài xế cúi đầu làm bóng tối che khuất vùng hốc mắt trái,face.eye_left / face13,ghi eye_left=unknown; các điểm mốc mí mắt left_eye_* phải bật cờ occluded=1 vì bị bóng tối che khuất

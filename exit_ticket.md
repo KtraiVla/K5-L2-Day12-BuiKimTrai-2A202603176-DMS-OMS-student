@@ -1,7 +1,5 @@
 # Exit ticket — Ngày 12
 
-Làm cá nhân, không mở slide, khoảng 10 phút. Ghi đáp án ngay dưới mỗi câu.
-
 **Họ tên:** Bùi Kim Trãi · **Mã:** G07
 
 ---

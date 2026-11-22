@@ -1,7 +1,5 @@
 # Danh sách lớp v0 — Bùi Kim Trãi · G07
 
-Viết tiếp từ slide 54 bài giảng. Mỗi lớp trả lời: **model cần nhận ra cái này để làm gì?**
-
 ## DMS (ít nhất 6 lớp)
 
 | # | Lớp / thuộc tính | Giá trị | Để làm gì (chức năng DMS) | Nhìn thấy được trên IR? |
@@ -26,12 +24,10 @@ Viết tiếp từ slide 54 bài giảng. Mỗi lớp trả lời: **model cần
 
 ## 2 câu hỏi leo thang
 
-Câu hỏi bạn muốn hỏi người viết guideline (hoặc khách hàng) vì guideline v1.0 chưa trả lời. Mỗi câu kèm **tên khung** làm ví dụ.
-
 1. **Câu hỏi:** Khi trong ghế trẻ em (`child_seat`) có đặt một vật dụng hoặc đồ chơi, quy định nên ưu tiên dùng thuộc tính `occupied = yes` của ghế hay bắt buộc phải vẽ thêm một bounding box `object` đè lên bên trong?
    * **Khung ví dụ:** `S01_rgb.png` (hàng ghế sau bên phải).
-   * **Bạn tạm gán thế nào và vì sao:** Tạm thời gán box `child_seat` có thuộc tính `occupied = yes` theo hướng dẫn của giảng viên trên lớp, không vẽ thêm box `object` để tránh chồng lấn nhãn.
+   * **Tạm gán và lý do:** Tạm thời gán box `child_seat` có thuộc tính `occupied = yes` theo hướng dẫn của giảng viên trên lớp, không vẽ thêm box `object` để tránh chồng lấn nhãn.
 
 2. **Câu hỏi:** Đối với điện thoại gắn trên giá đỡ (`phone.state = mounted`), nếu giá đỡ kẹp che mất phần lớn thân máy và chỉ thấy một góc cạnh viền phản quang thì có được xem là đủ điều kiện vẽ box `phone` hay không?
    * **Khung ví dụ:** `D05.png`.
-   * **Bạn tạm gán thế nào và vì sao:** Tạm thời vẽ box `phone` ôm phần máy thấy được và chọn `state = mounted` vì nhìn thấy rõ cạnh viền điện thoại gắn trên giá đỡ.
+   * **Tạm gán và lý do:** Tạm thời vẽ box `phone` ôm phần máy thấy được và chọn `state = mounted` vì nhìn thấy rõ cạnh viền điện thoại gắn trên giá đỡ.
