@@ -6,7 +6,7 @@ Mã bộ ảnh: **G07** · Hình thức: cá nhân
 |---|---|---|---|---|
 | Bùi Kim Trãi | 2A202603176 | có | Nguyễn Ngọc Đức (ducnn059) | 44 |
 
-Ca hai bạn vẫn không thống nhất và đã hỏi coach (ghi tên ảnh + đối tượng):
+Trường hợp chưa thống nhất và đã hỏi coach (ghi tên ảnh + đối tượng):
 
 - Ảnh `S01_ir.png` / `S01_rgb.png` (đối tượng `child_seat`): Mình và bạn Đức phân vân chỗ thuộc tính `occupied` nên để `yes` hay để `unknown` và vẽ thêm box `object`. Sau khi hỏi coach thì thống nhất chọn `occupied = yes` theo hướng dẫn cập nhật của lớp.
 
