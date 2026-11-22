@@ -1,0 +1,45 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,face,gaze_zone,khác giá trị (IoU=0.76),cluster,center,mine,4.5,giữ cluster vì mắt tài xế nhìn xuống bảng đồng hồ sau vô lăng
+D02.png,person,seatbelt,khác giá trị (IoU=0.97),unknown,worn_correct,peer,4.7,sửa thành worn_correct vì dải chéo thấy rõ vắt qua ngực
+D03.png,person,seatbelt,khác giá trị (IoU=0.88),worn_correct,unknown,mine,4.7,giữ worn_correct vì dải dây chéo từ vai xuống hông thấy rõ
+D04.png,person,seatbelt,khác giá trị (IoU=0.95),worn_correct,unknown,mine,4.7,giữ worn_correct vì dải chéo dây an toàn thấy rõ
+D04.png,hand,side,khác giá trị (IoU=0.72),right,left,mine,4.4-3,giữ nguyên vì gán đúng theo bên tay của cơ thể người lái
+D04.png,hand,side,khác giá trị (IoU=0.67),left,right,mine,4.4-3,giữ nguyên vì gán đúng theo bên tay của cơ thể người lái
+D04.png,face,eye_right,khác giá trị (IoU=0.64),unknown,closed,mine,4.5,giữ unknown vì mắt phải bị đốm phản xạ LED che khuất không thấy mí
+D04.png,face,gaze_zone,khác giá trị (IoU=0.64),lap,other,mine,4.5,giữ lap vì đầu và mắt tài xế cúi nhìn xuống vùng đùi
+D04.png,face13,right_eye_inner.outside,khác cờ,1,0,mine,4.6,giữ cờ outside vì điểm mốc rơi ra ngoài vùng nhận diện
+D04.png,face13,right_eye_upper.outside,khác cờ,1,0,mine,4.6,giữ cờ outside vì điểm mốc rơi ra ngoài vùng nhận diện
+D04.png,face13,right_eye_lower.outside,khác cờ,1,0,mine,4.6,giữ cờ outside vì điểm mốc rơi ra ngoài vùng nhận diện
+D05.png,phone,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.49,,mine,4.7,giữ box phone vì thấy rõ cạnh và màn hình trên giá đỡ
+D05.png,face,gaze_zone,khác giá trị (IoU=0.74),mirror_l,other,mine,4.5,giữ mirror_l vì hướng mắt liếc về gương chiếu hậu trái
+D05.png,phone,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.7,điều chỉnh tọa độ box phone cho khớp vùng máy
+D06.png,face,gaze_zone,khác giá trị (IoU=0.97),other,road,peer,4.5,sửa thành road vì tài xế đang nhìn thẳng quan sát phía trước
+D06.png,face13,mouth_left.occluded,khác cờ,1,0,mine,4.6,giữ cờ occluded=1 vì khóe miệng trái bị che khuất một phần
+S01_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.06,,mine,4.8,giữ box child_seat bao quanh toàn bộ khung ghế
+S01_ir.png,child_seat,occupied,khác giá trị (IoU=0.91),yes,unknown,ambiguous,4.8,giữ yes theo hướng dẫn cập nhật của giảng viên trên lớp
+S01_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,both_wrong,4.8,không vẽ person đè lên ghế trẻ em khi không có người thật
+S01_rgb.png,child_seat,occupied,khác giá trị (IoU=0.93),yes,unknown,ambiguous,4.8,giữ yes theo hướng dẫn cập nhật của giảng viên trên lớp
+S01_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,giữ box child_seat bao quanh toàn bộ khung ghế
+S01_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,both_wrong,4.8,không vẽ person đè lên ghế trẻ em khi không có người thật
+S01_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,both_wrong,4.8,không vẽ person đè lên ghế trẻ em khi không có người thật
+S02_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,giữ box child_seat đúng vị trí ghế sau xe
+S02_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,đồng ý với bạn gán object cho túi đồ trên ghế
+S02_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,giữ box child_seat đúng vị trí ghế sau xe
+S02_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,peer,4.8,đồng ý với bạn gán object cho túi đồ trên ghế
+S03_ir.png,object,type,khác giá trị (IoU=0.96),other,cup,peer,4.8,sửa thành cup vì vật có hình trụ cốc uống nước
+S03_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.8,không phải người lớn nên không gán person
+S03_rgb.png,object,type,khác giá trị (IoU=0.93),other,cup,peer,4.8,sửa thành cup vì vật có hình trụ cốc uống nước
+S03_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.8,không phải người lớn nên không gán person
+S04_ir.png,child_seat,occupied,khác giá trị (IoU=0.99),no,unknown,mine,4.8,giữ no vì quan sát thấy ghế trống
+S04_ir.png,infant_seat,facing,khác giá trị (IoU=1.00),front,rear,peer,4.8,sửa thành rear vì nôi trẻ sơ sinh quay mặt về sau xe
+S04_rgb.png,infant_seat,facing,khác giá trị (IoU=0.99),front,rear,peer,4.8,sửa thành rear vì nôi trẻ sơ sinh quay mặt về sau xe
+S04_rgb.png,child_seat,occupied,khác giá trị (IoU=0.99),no,unknown,mine,4.8,giữ no vì quan sát thấy ghế trống
+S05_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.8,ghế trống không có người nên không vẽ box
+S05_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.8,ghế trống không có người nên không vẽ box
+S06_ir.png,child_seat,occupied,khác giá trị (IoU=0.92),no,unknown,mine,4.8,giữ no vì quan sát thấy lòng ghế trống
+S08_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,giữ box child_seat ở vị trí ghế sau
+S08_ir.png,person,seatbelt,khác giá trị (IoU=0.99),not_worn,unknown,mine,4.4-6,giữ not_worn vì ảnh SVIRO thấy rõ người không thắt dây
+S08_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.8,giữ box person bao sát người ngồi
+S08_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,giữ box child_seat ở vị trí ghế sau
+S08_rgb.png,person,seatbelt,khác giá trị (IoU=1.00),not_worn,unknown,mine,4.4-6,giữ not_worn vì ảnh SVIRO thấy rõ người không thắt dây
+S08_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.8,giữ box person bao sát người ngồi
